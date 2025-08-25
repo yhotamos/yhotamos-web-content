@@ -23,7 +23,7 @@ jobs:
         run: |
           mkdir deploy-root
           shopt -s extglob
-          mv -- !(deploy-root) deploy-root/
+          mv !(deploy-root) deploy-root/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
