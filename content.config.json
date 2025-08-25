@@ -1,0 +1,32 @@
+{
+  "contentDir": ".",
+  "contentName": ".",
+  "metaIndexFile": "content.meta.json",
+  "defaultMeta": {
+    "lang": "ja",
+    "author": ""
+  },
+  "filePatterns": [
+    "**/*.md",
+    "**/*.txt",
+    "**/*.html"
+  ],
+  "structures": [
+    {
+      "slug": "blog/2025-08-25-GitHubActionsを使ってMarkdownドキュメントをGitHubPagesに公開する手順/index.md",
+      "structure": "category/date-title",
+      "category": "blog",
+      "title": "GitHubActionsを使ってMarkdownドキュメントをGitHubPagesに公開する手順",
+      "date": "2025-08-25",
+      "file": "index"
+    },
+    {
+      "slug": "blog/2025-08-25-Next.jsでGoogleSheetsAPIを使ってデータを取得するための手順/index.md",
+      "structure": "category/date-title",
+      "category": "blog",
+      "title": "Next.jsでGoogleSheetsAPIを使ってデータを取得するための手順",
+      "date": "2025-08-25",
+      "file": "index"
+    }
+  ]
+}
